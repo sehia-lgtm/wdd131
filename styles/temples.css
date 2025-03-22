@@ -1,0 +1,21 @@
+/* Navigation hover effect */
+nav ul li a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Responsive menu */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+    .menu-icon {
+        display: block;
+    }
+}
