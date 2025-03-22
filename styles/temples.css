@@ -1,21 +1,109 @@
-/* Navigation hover effect */
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+
+/* Header Styling */
+header {
+    background-color: lightcoral;
+    color: white;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    background-color: lightcoral;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
 nav ul li a:hover {
-    color: red;
+    color: lawngreen;
     text-decoration: underline;
 }
 
-/* Responsive menu */
-.menu-icon {
-    display: none;
-    cursor: pointer;
+/* Main Content */
+main {
+    padding: 20px;
 }
 
+/* Gallery Styling */
+div#temple-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+figure {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+figcaption {
+    font-size: 1rem;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-    nav ul {
-        display: none;
-        flex-direction: column;
-    }
-    .menu-icon {
-        display: block;
+    #temple-gallery {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@media (max-width: 480px) {
+    #temple-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+

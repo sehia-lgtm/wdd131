@@ -30,7 +30,7 @@
 
     <main>
         <section class="temples-section">
-            <h2>Temples</h2>
+            <h2>Home</h2>
             <div id="temple-gallery">
                 <figure>
                     <img src="images/accra-ghana-temple.jpg" alt="Accra, Ghana Temple" loading="lazy" width="400" height="250">
@@ -77,15 +77,8 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Sehi Arthur</p>
-        <p id="dynamic-info"></p>
+        <p>&copy; <span id="currentyear"></span> Sehi Arthur, Côte d'Ivoire.</p>
+        <p id="lastModified"></p>  
     </footer>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const dynamicInfo = document.getElementById("dynamic-info");
-            dynamicInfo.textContent = `Last updated: ${new Date().toLocaleDateString()}`;
-        });
-    </script>
 </body>
 </html>
