@@ -1,74 +1,92 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temple Album</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
+
     <script src="scripts/temples.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Temple Album</h1>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Old</a></li>
-                <li><a href="#">New</a></li>
-                <li><a href="#">Large</a></li>
-                <li><a href="#">Small</a></li>
+                <li><a href="#" data-filter="all">Home</a></li>
+                <li><a href="#" data-filter="old">Old</a></li>
+                <li><a href="#" data-filter="new">New</a></li>
+                <li><a href="#" data-filter="large">Large</a></li>
+                <li><a href="#" data-filter="small">Small</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>Temples</h1>
-        <figure>
-            <img src="images/" alt="Buenos Aires, Argentina Temple">
-            <figcaption>Buenos Aires, Argentina Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/" alt="Buenos Aires, Argentina Temple">
-            <figcaption>Buenos Aires, Argentina Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/" alt="Buenos Aires, Argentina Temple">
-            <figcaption>Buenos Aires, Argentina Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/" alt="Tijuana,Mexico Temple ">
-            <figcaption>Tijuana,Mexico Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/" alt="Tijuana,Mexico Temple ">
-            <figcaption>Tijuana,Mexico Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/" alt="Tijuana,Mexico Temple ">
-            <figcaption>Tijuana,Mexico Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/" alt="Arizona, USA Temple">
-            <figcaption>Arizona, USA Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/" alt="Arizona, USA Temple">
-            <figcaption>Arizona, USA Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/" alt="Arizona, USA Temple">
-            <figcaption>Arizona, USA Temple</figcaption>
-        </figure>
-        <figure>
-            <img src="images/" alt="Arizona, USA Temple">
-            <figcaption>Arizona, USA Temple</figcaption>
-        </figure>
+        <section class="temples-section">
+            <h2>Temples</h2>
+            <div id="temple-gallery">
+                <figure>
+                    <img src="images/accra-ghana-temple.jpg" alt="Accra, Ghana Temple" loading="lazy" width="400" height="250">
+                    <figcaption>Accra, Ghana Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/aba-nigeria-temple.jpg" alt="Aba, Nigeria Temple" loading="lazy" width="400" height="250">
+                    <figcaption>Aba, Nigeria Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/salt-lake-temple.jpg" alt="Salt Lake City, Utah Temple" loading="lazy" width="400" height="250">
+                    <figcaption>Salt Lake City, Utah Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/idaho-falls-temple.jpg" alt="Idaho Falls, Idaho Temple" loading="lazy" width="400" height="250">
+                    <figcaption>Idaho Falls, Idaho Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/madrid-spain-temple.jpg" alt="Madrid, Spain Temple" loading="lazy" width="400" height="250">
+                    <figcaption>Madrid, Spain Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/paris-france-temple.jpg" alt="Paris, France Temple" loading="lazy" width="400" height="250">
+                    <figcaption>Paris, France Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rome-temple.jpg" alt="Rome, Italy Temple" loading="lazy" width="400" height="250">
+                    <figcaption>Rome, Italy Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rexburg-temple.jpg" alt="Rexburg, Idaho Temple" loading="lazy" width="400" height="250">
+                    <figcaption>Rexburg, Idaho Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/london-england-temple.jpg" alt="London, England Temple" loading="lazy" width="400" height="250">
+                    <figcaption>London, England Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/johannesburg-south-africa-temple.jpg" alt="Johannesburg, South Africa Temple" loading="lazy" width="400" height="250">
+                    <figcaption>Johannesburg, South Africa Temple</figcaption>
+                </figure>
+            </div>
+        </section>
     </main>
-    
+
     <footer>
         <p>&copy; 2025 Sehi Arthur</p>
         <p id="dynamic-info"></p>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const dynamicInfo = document.getElementById("dynamic-info");
+            dynamicInfo.textContent = `Last updated: ${new Date().toLocaleDateString()}`;
+        });
+    </script>
 </body>
 </html>
+```

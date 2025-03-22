@@ -1,6 +1,6 @@
 /* Navigation hover effect */
 nav ul li a:hover {
-    color: #ff6600;
+    color: red;
     text-decoration: underline;
 }
 
