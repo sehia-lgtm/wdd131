@@ -13,13 +13,6 @@
         padding: 40px;
     }
 
-    /* Grid layout for the gallery */
-    #temple-gallery {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
-    }
-
 
     figure {
         border-radius: 15px 150px;
