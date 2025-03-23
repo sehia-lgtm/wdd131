@@ -4,14 +4,14 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: white;
+    background-color:#F9F9F9;
 }
 
 /* Header Styling */
 header {
-    background-color: lightcoral;
+    background-color: #2E294E;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
 }
 
 h1 {
@@ -27,7 +27,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: right;
-    background-color: lightcoral;
+    background-color: #2E294E;
 }
 
 nav ul li {
@@ -42,8 +42,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: lawngreen;
+    color: #FFB140;
     text-decoration: underline;
+    box-shadow: 0 0 50px #333;
 }
 
 /* Main Content */
@@ -57,13 +58,14 @@ div#temple-gallery {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     margin-top: 20px;
+    box-shadow: 0 0 50px #333;
 }
 
 figure {
-    background-color: white;
+    background-color:#F9F9F9;
     padding: 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    box-shadow: 0 0 50px #333;
+    border-radius: 15px 150px;
 }
 
 figure img {
@@ -81,10 +83,10 @@ figcaption {
 
 /* Footer Styling */
 footer {
-    background-color: lightcoral;
+    background-color:#2E294E;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     font-size: 0.9rem;
     margin-top: 20px;
 }
