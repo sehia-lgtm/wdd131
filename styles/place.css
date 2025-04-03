@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:green;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+
+picture {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+img#hero {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+.card h2 {
+    color: green;
+    margin-top: 0;
+}
+
+.card div {
+    margin-top: 10px;
+}
+
+#data {
+    left: 20px;
+    top: 250px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#data p {
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+
+
+#weather {
+    right: 20px;
+    text-align: center;
+    width: 300px;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+#weather img#weather-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        max-width: 300px;
+        position: static;
+        margin: 10px auto;
+    }
+
+    #data, #weather {
+        position: static;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 45%;
+        max-width: 400px;
+        position: absolute; 
+    }
+}
+
+/* Font Styling (based on provided fonts) */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+p, span, div {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
