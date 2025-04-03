@@ -1,11 +1,4 @@
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #ecf0f1;
-    --font-family: 'Roboto', sans-serif; /* Default font family */
-
-}
-
-:root {
     --primary-color: orange;
     --secondary-color: #2ecc71;
 }
@@ -60,6 +53,14 @@ img#hero {
     padding: 20px;
     margin-bottom: 20px;
     position: absolute;
+}
+
+.card::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin-top: 10px;
 }
 
 .card h2 {
