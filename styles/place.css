@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: orange;
-    color: white;
+    color: #2a2a2a;
     text-align: center;
     padding: 20px 0;
 
@@ -64,7 +64,7 @@ img#hero {
 }
 
 .card h2 {
-    color: green;
+    color: #006400;
     margin-top: 0;
 }
 
@@ -103,7 +103,7 @@ img#hero {
 
 footer {
     background-color: orange;
-    color: white;
+    color: #2a2a2a;
     text-align: center;
     padding: 10px 0;
 }
