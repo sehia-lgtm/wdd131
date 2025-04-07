@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Lazy Loading Images</h1>
+        <p>Scroll down to load images.</p>
+        <img class="lazy" data-src="https://picsum.photos/536/354" alt="Placeholder Image 1" width="600" height="400">
+        <img class="lazy" data-src="https://fastly.picsum.photos/id/1/5000/3333.jpg?hmac=Asv2DU3rA_5D1xSe22xZK47WEAN0wjWeFOhzd13ujW4" alt="Placeholder Image 2" width="600" height="400">
+        <img class="lazy" data-src="https://fastly.picsum.photos/id/16/2500/1667.jpg?hmac=uAkZwYc5phCRNFTrV_prJ_0rP0EdwJaZ4ctje2bY7aE" alt="Placeholder Image 3" width="600" height="400">
+        <img class="lazy" data-src="https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o" alt="Placeholder Image 4" width="600" height="400">
+        <img class="lazy" data-src="https://fastly.picsum.photos/id/29/4000/2670.jpg?hmac=rCbRAl24FzrSzwlR5tL-Aqzyu5tX_PA95VJtnUXegGU" alt="Placeholder Image 5" width="600" height="400">
+        <img class="lazy" data-src="https://fastly.picsum.photos/id/54/3264/2176.jpg?hmac=blh020fMeJ5Ru0p-fmXUaOAeYnxpOPHnhJojpzPLN3g" alt="Placeholder Image 6" width="600" height="400">
+    </main> 
+</body>
+<footer>
+    <script>
+        // Display the last modified date in the footer
+        const lastModified = new Date(document.lastModified);
+        document.getElementById('last-modified').textContent = `Last modified: ${lastModified.toLocaleDateString()} ${lastModified.toLocaleTimeString()}`;
+    </script>
+</footer>
+    
+</html>

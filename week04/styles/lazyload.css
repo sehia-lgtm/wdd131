@@ -1,0 +1,41 @@
+/* Center <img> elements in one column down the center of the page */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%; /* Adjust as needed */
+    max-width: 600px; /* Optional: Limit the maximum width of images */
+}
+
+/* Add lazy loading to images in HTML */
+img[data-src] {
+    opacity: 0; /* Hide images until they are loaded */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition for loading */
+    animation: fadeFromBlack 1s ease-in-out; /* Apply fade-from-black animation */
+}
+
+/* Add a loading spinner or placeholder while images are loading */
+img[data-src]:before {
+    content: "Loading..."; /* Placeholder text or spinner */
+    display: block;
+    text-align: center;
+    font-size: 1.5em; /* Adjust as needed */
+    color: #999; /* Placeholder color */
+    margin-bottom: 10px; /* Space between placeholder and image */
+}
+
+/* Add a fade-in effect for images when they are loaded */
+img.lazy {
+    animation: fadeFromBlack 1s ease-in-out forwards;
+}
+
+/* Keyframes for fade-from-black animation */
+@keyframes fadeFromBlack {
+    0% {
+        opacity: 0;
+        filter: brightness(0);
+    }
+    100% {
+        opacity: 1;
+        filter: brightness(1);
+    }
+}
