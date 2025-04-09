@@ -1,0 +1,35 @@
+/* Large Screen Styles */
+@media (min-width: 1024px) {
+
+    #menu-toggle {
+        display: none;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px;
+    }
+
+    figure {
+        border-radius: 20px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    figure:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    figcaption {
+        font-size: 1.2rem;
+        color: #1a1a1a;
+    }
+
+    nav ul {
+        display: flex;
+    }
+}
+
+
+
