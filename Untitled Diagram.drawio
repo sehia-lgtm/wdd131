@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+  <diagram name="Page-1" id="-vKMGc-OFjk7XIcp_Sg9">
+    <mxGraphModel dx="632" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FF2424" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BGoNeb6Ve59BjNbdwA1f-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="235.00000000000023" as="sourcePoint" />
+            <mxPoint x="399" y="235.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-39" value="" style="shape=line;strokeColor=#bbbbbb;strokeWidth=1;opacity=20;resizeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="497.0000000000002" width="358" height="8" as="geometry">
+            <mxPoint y="467" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-84" value="&lt;h2&gt;&lt;font face=&quot;Courier New&quot;&gt;Logo&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="364" y="140" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="BGoNeb6Ve59BjNbdwA1f-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="235.00000000000023" as="sourcePoint" />
+            <mxPoint x="399" y="235.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-86" value="&lt;font style=&quot;font-size: 34px; background-color: rgb(255, 36, 36);&quot; face=&quot;Courier New&quot;&gt;News&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="560" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-87" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 34px; background-color: rgb(255, 36, 36);&quot;&gt;Matches&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="580" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-89" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="560" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-3" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="330" y="135" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-2" value="&lt;b&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 36px;&quot;&gt;Site Name&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-20" value="" style="dashed=0;shape=mxgraph.gmdl.preferences;strokeColor=none;fillColor=#084560;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="50" height="40" as="geometry">
+            <mxPoint x="16" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-91" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 34px; background-color: rgb(255, 36, 36);&quot;&gt;History&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="780" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-93" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Lucida Console&quot;&gt;©2025 ❤️Sehi Tchenebeo Arthur❤️ Abibjan, Ivory Coast&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot; face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="980" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-95" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.youtube_2;fillColor=#FF2626;gradientColor=#B5171F" vertex="1" parent="1">
+          <mxGeometry x="310" y="1030" width="46.400000000000006" height="32.6" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-96" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.whatsapp;fillColor=#00E676;strokeColor=#dddddd" vertex="1" parent="1">
+          <mxGeometry x="430" y="1018.9" width="47.2" height="41.1" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoNeb6Ve59BjNbdwA1f-97" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.twitter;fillColor=#1DA1F2;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="530" y="1030" width="70" height="32.6" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
