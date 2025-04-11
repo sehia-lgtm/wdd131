@@ -11,8 +11,8 @@
 :root {
     --typical-border: 1.5px solid black;
     --header-font-family: Lobster, "Bradley Hand", cursive;
-    --header-footer-background-color: #577590;
-    --header-padding-color: #4D908E;
+    --header-footer-background-color:#FEC601;
+    --header-padding-color: #58FCEC;
     --header-font-color: #F9F7F7;
     --highlight-color: #277DA1;
     --label-fontfamily: "Afacad Flux", Georgia, sans-serif;
@@ -120,7 +120,7 @@ main {
 
 .reviewForm1 input[type="submit"] {
     border: none;
-    background-image: linear-gradient(#4D908E, #277DA1);
+    background-image: linear-gradient(#58FCEC, #FEC601);
     padding: .75rem;
     width: 100%;
     max-width: 400px;
