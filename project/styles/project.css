@@ -1,0 +1,138 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f44336; /* A vibrant red */
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background-color: white;
+    color: #f44336;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd; /* Placeholder color */
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #f44336;
+    font-weight: bold;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: #f44336;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.content-blocks {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c62828; /* A darker red */
+    color: white;
+    text-decoration: none;
+    padding: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.history-block .block {
+    background-color: #d32f2f; /* Another shade of red */
+}
+
+footer {
+    background-color: #c62828;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.8em;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 60px; /* Adjust as needed */
+        left: 0;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav li a {
+        padding: 1em;
+        border-bottom: 1px solid #eee;
+        color: #f44336;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .content-blocks {
+        flex-direction: column;
+    }
+}
