@@ -2,7 +2,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f2f5;
-    color: #333;
+    color: red;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@ ul {
     padding: 20px;
     max-width: 700px;
     margin: 0 auto 30px auto;
-    background-color: #fff;
+    
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -53,7 +53,7 @@ a {
     display: block;
     padding: 15px 25px;
     text-decoration: none;
-    color: #333;
+    color: gold;
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 8px;
 }
@@ -106,3 +106,4 @@ footer a:hover {
 footer p {
     margin: 8px 0;
 }
+
